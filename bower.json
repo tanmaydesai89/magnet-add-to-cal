@@ -1,0 +1,24 @@
+{
+  "name": "magnet-add-to-cal",
+  "version": "1.6.0",
+  "authors": [
+    "Tanmay <tanmay@getmagnet.com>"
+  ],
+  "description": "Magnet: AddToCal JS",
+  "main": "dist/magnet-add-to-cal.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
