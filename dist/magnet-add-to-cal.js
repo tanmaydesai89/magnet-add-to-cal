@@ -163,7 +163,7 @@
             };
             var t = -(new Date).getTimezoneOffset().toString();
             var n = addtocalendar.languages;
-            var r = document.getElementsByTagName("*");
+            var r = document.getElementsByClassName("addtocalendar");
             for (var i = 0; i < r.length; i++) {
                 var s = r[i].className;
                 if (s.split(" ").indexOf("addtocalendar") != -1) {
@@ -269,5 +269,5 @@
             }
         })
     };
-    addtocalendar.load()
+    addtocalendar.load();
 })(window, document)
